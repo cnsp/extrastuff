@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# -x  prints out commands and their arguments as they are executed.
+# comment out set -x to run bash without it
 set -x;
 
 # read from standard input into variable (path to your file)
