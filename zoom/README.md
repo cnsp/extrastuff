@@ -38,7 +38,7 @@ After downloading a previous version of the installer, run these command lines i
 
 `./7zr x zm.7z`
 
-4. move or copy the entire zoom.us.app folder into the /Applications directory
+4. copy the entire zoom.us.app folder into the /Applications directory
 
 `cp -R zoom.us.app /Applications/.`
 
