@@ -26,19 +26,19 @@ Alternatively, you can download one of the older versions of the install file vi
 
 After downloading a previous version of the installer, run these command lines in the terminal:
 
-- unpack the contents of the installer into a Zoom directory
+1. unpack the contents of the installer into a Zoom directory
 
 `pkgutil --expand ZoomInstaller.pgk Zoom`
 
-- access the installation Scripts directory 
+2. access the installation Scripts directory 
 
 `cd Zoom/Scripts`
 
-- run the decompression tool to again unpack the Zoom app
+3. run the decompression tool to again unpack the Zoom app
 
 `./7zr x zm.7z`
 
-- move or copy the entire zoom.us.app folder into the /Applications directory
+4. move or copy the entire zoom.us.app folder into the /Applications directory
 
 `cp -R zoom.us.app /Applications/.`
 
