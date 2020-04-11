@@ -1,5 +1,8 @@
-# How to manually install previous installer packages of Zoom for Mac users
+# Manually install previous installer packages of Zoom for Mac users
 
+After the most Zoom update to 4.6.9, some of the features like virtual cameras have stopped working in zoom.  Zoom has not addressed these issues, so the recourse is to uninstall 4.6.9 and re-install a previous version.
+
+---
 
 The following information have been tested on macOS Catalina (Version 10.15.4), but might work for previous macOS also.
 
@@ -20,12 +23,19 @@ Alternatively, you can download one of the older versions of the install file vi
 After downloading a previous version of the installer, run these command lines in the terminal:
 
 - unpack the contents of the installer into a Zoom directory
+
 `pkgutil --expand ZoomInstaller.pgk Zoom`
+
 - access the installation Scripts directory 
+
 `cd Zoom/Scripts`
+
 - run the decompression tool to again unpack the Zoom app
+
 `./7zr x zm.7z`
+
 - move or copy the entire zoom.us.app folder into the /Applications directory
+
 `cp -R zoom.us.app /Applications/.`
 
 
