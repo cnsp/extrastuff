@@ -1,12 +1,16 @@
 # Manually install previous installer packages of Zoom for Mac users
 
-After the most Zoom update to 4.6.9, some of the features like virtual cameras have stopped working in zoom.  Zoom has not addressed these issues, so the recourse is to uninstall 4.6.9 and re-install a previous version.
+After the recent Zoom update to 4.6.9, some of the features like virtual cameras have stopped working in zoom.  Zoom has not addressed these issues, so the recourse is to uninstall 4.6.9 and re-install a previous version.
 
 ---
 
 The following information have been tested on macOS Catalina (Version 10.15.4), but might work for previous macOS also.
 
-To install 4.6.8 version, download installzoom.sh, then in your terminal:
+To install 4.6.8 version, download installzoom.sh: 
+
+`curl https://github.com/cnsp/extrastuff/blob/master/zoom/installzoom.sh`
+
+then run the install file:
 
 `bash installzoom.sh`
 
